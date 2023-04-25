@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "lucas";
+    src: url(./Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+header {
+    background-color: yellow;
+    width: 100%;
+    height: 400px
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    margin: 0px 20px;
+    display: inline-block;
+    color: black;
+
+}
+
+.imagen {
+    width: 200px;
+    height: 100px;
+}
+
+body {
+    margin: 0px 0px;
+    font-family: "lucas";
+    font-size: 20px;
+
+}
+
+.abajo {
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    margin-top: 20px;
+    width: 100%;
+
+
+}
+
+.contenedorparrafo {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.contenedorimagen {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    border-radius: 10px;
+    color: white;
+    background-color: #ffc964;
+    height: 100px;
+    width: 10rem;
+    border: none;
+    font-size: 20px;
+    padding: 12px;
+    margin-top: 10px;
+
+
+}
+
+.losmejores {
+    margin: 10px 0px;
+}
+
+.pediya {
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notequedes {
+    color: #ffc964;
+    font-size: 80px;
+    font-weight: 800px;
+}
+
+.animate {
+    color: white;
+    font-size: 30px;
+    font-weight: 300px;
+}
+
+.guia {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.icons-lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+}
+
+.icons-carrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+}
+
+.icons-confirma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+}
+
+ul {
+    margin-top: 2rem;
+}
+
+.change {
+    display: none;
+}
+
+.iconmenu {
+    font-size: 40px;
+    display: none !important;
+    margin-top: 20px;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    .notequedes {
+        font-size: 3rem;
+    }
+
+    ul {
+        margin-top: 3rem;
+    }
+
+    .contenedorparrafo {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+
+    * {
+        font-size: 10px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .iconmenu {
+        display: inline-block !important;
+    }
+
+    .change:checked~ul {
+        display: inline-block !important;
+    }
+
+    * {
+        font-size: 1.2rem;
+    }
+
+    .abajo { flex-wrap: wrap;
+
+    }
+    header { height: 45rem;
+}
+.contenedorparrafo { display: flex;
+justify-content: center; 
+flex-direction: column;}
+
+.notequedes { font-size: 2rem;
+text-align: center;}
+ 
+.animate { font-size: 1.5rem ;}
+
+.guia { display: flex;
+justify-content: center;
+text-align: center;
+flex-direction: column;}
+
+
+main { display: flex;
+flex-wrap: wrap;
+justify-content: center;}
+
+.pediya { display: flex;
+justify-content: center;
+text-align: center;}
+    
+.icons-lista { display: flex;
+justify-content: center;
+text-align: center;
+width: 100%;}
+
+.icons-carrito { width: 100%;}
+ 
+.icons-confirma { width: 100%;}
+.animate { width: 100%;}
+}
