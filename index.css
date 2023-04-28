@@ -229,4 +229,15 @@ width: 100%;}
  
 .icons-confirma { width: 100%;}
 .animate { width: 100%;}
+
+}
+
+
+.boton:hover { background-color:gray;
+cursor: pointer;}
+
+.li-navi:hover {  
+    color: white;
+    cursor: pointer;
+
 }
